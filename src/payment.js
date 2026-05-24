@@ -8,7 +8,8 @@ function processPayment(amount, currency) {
         amount: amount,
         commission: amount * commission,
         total: total,
-        currency: currency
+        currency: currency,
+	updated: true
     };
 }
 
